@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.display-services-container{
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 50px;
+}
+
+.add-button{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-right: 50px; /* Add margin between the add button and action buttons */
+}
+
+.add-button:hover{
+    background-color: #007bff;
+}
+
+h3{
+    color: #333;
+}
+
+table{
+    width: 1000px;
+    border-collapse: collapse;
+    /* Ensure consistent columns width */
+    table-layout: fixed;
+}
+
+th, td{
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 8px;
+    text-align: left;
+    /* Prevent text wrapping */
+    white-space: nowrap; 
+    /* Hide overflowed content */
+    overflow: hidden; 
+    /* Show ellipsis for overflowed text */
+    text-overflow: ellipsis; 
+}
+
+th{
+    background-color: lightblue;
+}
+
+.no-data{
+    color: #777;
+}
+
+button{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover{
+    background-color: #007bff;
+}
+
+button.delete-button {
+    background-color: red;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button.delete-button:hover {
+    background-color: #ff9999;
+}

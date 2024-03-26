@@ -1,0 +1,58 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, 
+.table td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid grey;
+}
+
+.table th{
+    background-color: lightblue;
+}
+
+.table tbody tr{
+    background-color: white;
+}
+
+.appointments-container{
+    height: 400px;
+    width: 1200px;
+    margin-top: 20px;
+}
+
+#content h2{
+    margin-top: -10px;
+    margin-right: 650px;
+    font-size: 28px;
+}
+
+.search-container{
+    float: right;
+    margin-top: -64px;
+}
+
+.search{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-button{
+    padding: 6px 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-button:hover{
+    background-color: #007bff;
+}

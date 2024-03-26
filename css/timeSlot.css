@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.time-slots {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+    justify-content: center;
+}
+
+.time-slot {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black;
+    width: 120px;
+}
+
+.time-slot:hover {
+    background-color: #e0e0e0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* for determining the available time slot for the booking process */
+.booked {
+    background-color: red;
+}
+.available {
+    background-color: green;
+}

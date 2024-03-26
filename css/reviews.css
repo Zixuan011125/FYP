@@ -1,0 +1,22 @@
+.review-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.review {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.review h3 {
+    margin-top: 0;
+}
+.review p {
+    margin-bottom: 5px;
+}
+.stars {
+    color: #FFD700; /* Color for the stars */
+}
+.timestamp {
+    color: #666; /* Color for the timestamp */
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* Slideshow container */
+.slideshow-container{
+    position: relative;
+    max-width: 100%;
+    height: 900px; /* Set a specific height */
+    overflow: hidden;
+}
+
+.mySlides{
+    position: absolute; /* Position slides relative to their container */
+    width: 100%; /* Adjust the width as needed */
+    height: 900px; /* Set a fixed height for the container */
+}
+
+.mySlides img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+@keyframes fade{
+    from{
+        opacity: .4
+    }
+
+    to{
+        opacity: 1
+    }
+}
+
+.container-home{
+    background: linear-gradient(#F9ABA4, #EFECEC);
+}
+
+.container-home h1{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 30px;
+}
+
+.container-home h2{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    padding: 43px;
+    text-transform: uppercase;
+}
+
+.container-booked-images{
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.container-booked-images img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container-booked{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* White with some transparency */
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1; /* Ensure button appears above the image */
+}
+
+.container-booked h1{
+    margin: 0;
+    font-size: 2em;
+    color: #333; /* Black text color */
+    padding-bottom: 38px;
+}
+
+.container-booked .button{
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container-booked p{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    padding-bottom: 20px;
+}

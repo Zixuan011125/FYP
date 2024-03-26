@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.update-employees-container{
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.form{
+    display: block;
+    margin-bottom: 15px;
+    width: 500px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #007bff;
+}
+
+
+input[type="text"],
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-control:focus{
+    border-color: #000; /* Darker border color */
+    border-width: 2px; /* Make the border thicker */
+    outline: none; /* Remove the default focus outline */
+}
+
+label{
+    font-weight: bold;
+}
